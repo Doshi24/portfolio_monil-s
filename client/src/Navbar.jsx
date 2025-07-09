@@ -2,8 +2,8 @@ import { Home, GraduationCap,Contact,Briefcase,User,BrainCircuit } from 'lucide-
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow sticky top-0 z-50 p-4">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <nav className="bg-white/50 backdrop-blur-md shadow sticky top-0 z-50 p-4">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center ">
         <h1 className="text-xl font-bold">Monil</h1>
         <div className="flex items-center space-x-8 text-xl">
           <a href="#hero" className="flex items-center gap-2 hover:text-blue-500">
