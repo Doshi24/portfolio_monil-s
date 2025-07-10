@@ -10,7 +10,7 @@ function Navbar() {
             <Home className="h-5 w-5" />
             Home
           </a>
-          <a href="#about" className=" flex gap-2 items-center hover:text-blue-500">
+          <a href="#AboutSection" className=" flex gap-2 items-center hover:text-blue-500">
             <User className="h-5 w-5" />
             About</a>
           <a href="#education" className=" flex items-center gap-2  hover:text-blue-500">
@@ -20,7 +20,7 @@ function Navbar() {
           <a href="#skills" className="flex items-center gap-2 hover:text-blue-500">
             <Briefcase  className = "h-5 w-5"/>
             Skills</a>
-          <a href="#experience" className=" flex items-center gap-2 hover:text-blue-500">
+          <a href="#AboutSection" className=" flex items-center gap-2 hover:text-blue-500">
             <BrainCircuit className = "h-5 w-5"/>
             Experience</a>
           <a href="#contact" className=" flex items-center gap-2 hover:text-blue-500">
