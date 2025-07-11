@@ -1,12 +1,18 @@
-function Education (){
-    return (
-    <section id="education" className="py-20 px-6 bg-gradient-to-r from-blue-100 to-purple-200">
-      <h2 className="text-3xl font-bold text-center mb-6">Education</h2>
-      <div className="max-w-3xl mx-auto text-center text-gray-600">
-        <p>B.E. in Information Technology – Universal College of Engineering (2021–2025)</p>
-        <p>Diploma in Computer Engineering – XYZ Polytechnic (2018–2021)</p>
+function Education() {
+  return (
+    <div className="flex-1 bg-white/70 rounded-3xl shadow-xl p-8 md:p-12 text-gray-700 transition-all duration-500">
+      <h2 className="text-2xl md:text-3xl font-bold text-purple-700 mb-6">Education</h2>
+      <div className="space-y-4">
+        <p className="text-lg">
+          🎓 <strong>B.E. in Information Technology</strong><br />
+          Universal College of Engineering (2021–2025)
+        </p>
+        <p className="text-lg">
+          🖥️ <strong>Diploma in Computer Engineering</strong><br />
+          Government Polytechnic (2018–2021)
+        </p>
       </div>
-    </section>
+    </div>
   );
 }
 
