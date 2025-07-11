@@ -1,11 +1,11 @@
 import { useEffect } from "react"
 import Navbar from "./Navbar"
 import Hero from "./Hero"
-import About from './About'
 import Education from "./Education"
 import Contact from "./Contact"
 import Skills from "./Skills"
-import Experience from "./Experince"
+import AboutSection from "./AboutSection"
+import Project from "./Project"
 
 function App() {
 useEffect(() => {
@@ -17,9 +17,9 @@ useEffect(() => {
     <>
     <Navbar />
     <Hero />
+    <AboutSection />
+    <Project />
     <Skills />
-    <Experience />
-    <About />
     <Education />
     <Contact />
     </>
