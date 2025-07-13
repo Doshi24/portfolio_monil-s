@@ -3,7 +3,7 @@ import Contact from './Contact'
 function EductionContact() {
     return (
         <>
-        <section id = "EductionContact" className="min-h-screen bg-gradient-to-r from-blue-100 to-pink-100">
+        <section id = "EductionContact" className=" bg-gradient-to-r from-blue-100 to-purple-200 px-6 py-10">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16">
                 <Education />
                 <Contact />
