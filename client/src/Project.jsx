@@ -8,26 +8,13 @@ export default function Projects() {
       code: "#"
     },
     {
-      title: "Fraud App Detection",
-      tech: ["Android", "NLTK", "Flask"],
-      description: "Detects fraud apps using NLP on permissions. Originally built on Android Studio.",
+      title: "AI-Powered Event Management & Ticketing Platform",
+      tech: ["React","Node","Mongodb","Oauth","OpenApi Key","Payment Intregation"],
+      description: "Combine Multipe Feature",
       demo: "#",
       code: "#"
     },
     {
-      title: "News API App",
-      tech: ["JavaScript", "HTML", "Public API"],
-      description: "Live news by category using async fetch from public APIs.",
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "Notes App",
-      tech: ["JavaScript", "LocalStorage", "HTML/CSS"],
-      description: "Simple rich text editor for creating and storing notes in-browser.",
-      demo: "#",
-      code: "#"
-    },{
       title: "News API App",
       tech: ["JavaScript", "HTML", "Public API"],
       description: "Live news by category using async fetch from public APIs.",

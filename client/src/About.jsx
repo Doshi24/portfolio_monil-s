@@ -7,7 +7,7 @@ function About (){
       <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">About Me</h2>
       <div className="text-center space-y-6 text-gray-700">
         <p className="text-justify">
-          I may not be a fully seasoned full-stack developer yet, but I’ve built a solid foundation in <span className={style}>Core JavaScript</span>, <span className={style}>Node.js</span>, <span className={style}>Python</span>, and frontend development. Starting my current internship has not only sharpened my technical skills but also boosted my confidence significantly. It gave me real-world insight into how systems work — from backend architecture to production services.
+          I may not be a fully seasoned full-stack developer yet, but I’ve built a solid foundation in <span className={style}>Core JavaScript</span>, <span className={style}>Node.js</span>, <span className={style}>Python</span>, <span className={style}>Mern Stack</span> and frontend development. Starting my current internship has not only sharpened my technical skills but also boosted my confidence significantly. It gave me real-world insight into how systems work — from backend architecture to production services.
         </p>
         <p className="text-justify">
           I'm passionate about learning and enjoy exploring new technologies. My experience so far has taught me to understand system flow, debug real-time issues, and contribute to meaningful modules. I believe in continuous growth and strive to turn my curiosity into creative and scalable solutions.

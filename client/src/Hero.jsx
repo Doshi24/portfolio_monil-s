@@ -7,32 +7,33 @@ function Hero() {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
-  const [deleting, setDeleting] = useState(false);
+  // const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     const currentText = Msg[index];
 
-    if (!deleting && subIndex < currentText.length) {
+    if ( subIndex < currentText.length) {
       setTimeout(() => {
         setSubIndex(subIndex + 1);
         setText(currentText.substring(0, subIndex + 1));
       }, 100);
-    } else if (deleting && subIndex > 0) {
-      setTimeout(() => {
-        setSubIndex(subIndex - 1);
-        setText(currentText.substring(0, subIndex - 1));
-      }, 50);
-    } else if (!deleting && subIndex === currentText.length) {
-      setTimeout(() => setDeleting(true), 1500);
-    } else if (deleting && subIndex === 0) {
-      setDeleting(false);
-      setIndex((index + 1) % Msg.length);
+    // } else if ( subIndex > 0) {
+    //   setTimeout(() => {
+    //     setSubIndex(subIndex - 1);
+    //     setText(currentText.substring(0, subIndex - 1));
+    //   }, 50);
     }
-  }, [subIndex, deleting, index]);
+    // } else if ( subIndex === currentText.length) {
+    //   setTimeout(() => setDeleting(true), 1500);
+    // } else if ( subIndex === 0) {
+    //   setDeleting(false);
+    //   setIndex((index + 1) % Msg.length);
+    // }
+  }, [subIndex,  index]);
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-200 px-6 py-16">
-      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-10 bg-white/70 rounded-3xl shadow-xl p-8 md:p-16 transition-all duration-500">
+    <section id="hero" className="  w-full flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-200 px-6 py-16">
+      <div className=" flex flex-col-reverse md:flex-row items-center gap-10 bg-white/70 rounded-3xl shadow-xl p-8 md:p-16 transition-all duration-500">
         
         {/* Left: Text Box */}
         <div className="flex-1 text-center md:text-left animate-fade-in">
