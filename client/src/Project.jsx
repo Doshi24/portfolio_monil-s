@@ -2,31 +2,31 @@ export default function Projects() {
   const projects = [
     {
       title: "Sales Forecast App",
-      tech: ["Python", "Flask", "ML"],
+      tech: ["Python", "Flask", "ML", "OpenAi","Pre-Trained-Data-Model"],
       description: "Predicts future sales using machine learning. Built with Flask & Streamlit.",
+      // demo: "#",
+      // code: "#"
+    },
+    {
+      title: "BillWise – Inventory & Billing Web App :",
+      tech: ["React","Redux-toolkit","Node.js","Mongodb","LocalStorage"],
+      description: "Developed a React + Redux Toolkit frontend with CRUD, search, filtering, and CSV export. Integrated JWT-secured APIs using Express.js & MySQL for billing workflows and role-based access.",
+      demo: "#",
+      code: "https://github.com/Doshi24/BillWise.git"
+    },
+    {
+      title: "Digital Workstation :",
+      tech: ["JavaScript", "TypeScript", "React.js" , "WebRtC", "Socket.io" , "socket.io.client"],
+      description: "Built a collaborative virtual meeting platform integrating WebRTC and PeerJS for video calls and screen sharing.Implemented a real-time whiteboard with multi-user sync features and chat using WebSocket. Developed using JavaScript, TypeScript, and HTML/CSS, focused on seamless remote collaboration.",
       demo: "#",
       code: "#"
     },
     {
-      title: "AI-Powered Event Management & Ticketing Platform",
-      tech: ["React","Node","Mongodb","Oauth","OpenApi Key","Payment Intregation"],
-      description: "Combine Multipe Feature",
+      title: "Multi-Tenant Notes Management System",
+      tech: ["Socket.io","role-based access", "LocalStorage", "Redux-toolkit","JWT auth","middleware-based authorization", "Monogdb"],
+      description: "Full-stack app where companies (tenants) have Admins & Members with role-based access. Implemented JWT auth, middleware-based authorization, and CRUD notes module with React, Redux Toolkit, Node.js, Express, and MongoDB.",
       demo: "#",
-      code: "#"
-    },
-    {
-      title: "News API App",
-      tech: ["JavaScript", "HTML", "Public API"],
-      description: "Live news by category using async fetch from public APIs.",
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "Notes App",
-      tech: ["JavaScript", "LocalStorage", "HTML/CSS"],
-      description: "Simple rich text editor for creating and storing notes in-browser.",
-      demo: "#",
-      code: "#"
+      code: "https://github.com/Doshi24/Multi-Tenant-SaaS-Notes-App.git"
     }
   ];
 

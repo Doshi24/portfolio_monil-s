@@ -12,7 +12,7 @@ export default function Navbar() {
       <nav className="bg-white/50 backdrop-blur-md shadow sticky top-0 z-50 p-4">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo */}
-          <h1 className="text-xl font-bold">Monil</h1>
+          <h1 className="text-xl font-bold"></h1>
 
           {/* Hamburger Icon - mobile only */}
           <button
